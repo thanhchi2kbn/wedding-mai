@@ -37,7 +37,7 @@
                         </div>
 
                         <div class="desc-info">
-                            <p style="font-weight: 600; font-size: 14px;">Chú Rể: Chí Thành</p>
+                            <p class="cr" style="font-weight: 600; font-size: 14px;">Chú Rể: Chí Thành</p>
                             <p>15/04/2000</p>
                             <p>Đom đóm chúa</p>
                         </div>
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="desc-info">
-                            <p style="font-weight: 600; font-size: 14px; text-wrap: nowrap;">Cô Dâu: Quỳnh Mai</p>
+                            <p class="cd" style="font-weight: 600; font-size: 14px; text-wrap: nowrap;">Cô Dâu: Quỳnh Mai</p>
                             <p>09/10/2000</p>
                             <p>Sky chín hịu</p>
                         </div>
@@ -91,9 +91,12 @@
 
             <!-- <p style="font-weight: 600;">Trân trọng kính mời</p> -->
             <!-- <p style="margin: 0; font-weight: 600">lễ thành hôn của hai con chúng tôi</p> -->
-            <p style="font-weight: 600;">Trân trọng kính mời</p>
-            <p style="opacity: 0.8; font-size: 16px; margin-bottom: 0;">Tới dự bữa cơm thân mật chung vui cùng gia đình
-                chúng tôi</p>
+             <div class="loi-moi">
+                <p  style="font-weight: 600;">Trân trọng kính mời</p>
+                <p class="lm2" style="opacity: 0.8; font-size: 16px; margin-bottom: 0;">Tới dự bữa cơm thân mật chung vui cùng gia đình
+                    chúng tôi</p>
+             </div>
+
 
             <div class="gif">
                 <img src="./assets/wd-1.gif" alt="">
@@ -152,10 +155,10 @@
         <div style="min-height: 70vh; width: 90vw; margin: auto;" class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="qrModalLabel">Mã QR Mừng Cưới</h5>
+                    <h5 style="width: 100% ; margin: auto;" class="modal-title te" id="qrModalLabel">Mã QR Mừng Cưới</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center">
+                <div class="modal-body text-center" >
                     <img id="qrImage" src="" alt="QR Code" class="img-fluid" />
                     <div id="qrInfo"></div> <!-- Thêm phần này để hiển thị thông tin -->
                 </div>

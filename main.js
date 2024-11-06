@@ -3,15 +3,15 @@ const qrDetails = {
     groom: {
         qrSrc: './assets/qr-thanh.jpg', 
         infoHtml: `
-            <div class="mt-2" style="font-size: 16px; font-weight: 600;">Hồ Chí Thành</div>
-            <div style="font-size: 14px;" class="mt-2">105869222004</div>
+            <div class="mt-2" style="font-size: 20px; font-weight: 600;">Hồ Chí Thành</div>
+            <div style="font-size: 18px;" class="mt-2">105869222004</div>
         `
     },
     bride: {
         qrSrc: './assets/qr-mai.jpg', 
         infoHtml: `
-            <div class="mt-2" style="font-size: 16px; font-weight: 600;">Văn Thị Quỳnh Mai</div>
-            <div style="font-size: 14px;" class="mt-2">1234567863</div>
+            <div class="mt-2" style="font-size: 20px; font-weight: 600;">Văn Thị Quỳnh Mai</div>
+            <div style="font-size: 18px;" class="mt-2">1234567863</div>
         `
     }
 };

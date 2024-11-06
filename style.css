@@ -159,8 +159,46 @@
     text-align: center;
 }
 
+.modal-title{
+    text-align: center;
+}
+
+/* REPONSIVE  */
 @media (min-width: 1025px) {
+    .about-me-title{
+        font-size: 22px;
+    }
+
     .main {
-        display: none;
+        width: 60vw;
+        margin: auto;
+    }
+
+    .list-info{
+        font-size: 18px !important;
+    }
+    .cr, .cd {
+        font-size: 18px !important;
+    }
+
+    .rowz{
+        justify-content: space-around;
+        font-size: 18px !important;
+    }
+    .info-family{
+        font-size: 18px;
+    }
+    .house{
+        font-size: 20px;
+    }
+    .loi-moi{
+        font-size: 22px !important;
+    }
+    .lm2{
+        font-size: 18px !important;
+    }
+
+    .gif{
+        width: 60vw;
     }
 }
